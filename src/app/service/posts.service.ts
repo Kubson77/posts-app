@@ -4,7 +4,7 @@ import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
 
 // ctr + alt + (c / m / v)
-const BASE_URL = 'https://jsonplaceholder.typicode.com/posts';
+const BASE_URL = 'https://jsonplaceholder.typicode.com/posts/';
 
 @Injectable({
   providedIn: 'root'
